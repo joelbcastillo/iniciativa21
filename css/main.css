@@ -725,11 +725,11 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  /* background-image: url('../img/cover.jpg'); */
+  background-image: url('../img/web-banner.jpg');  
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
+  background-position: center center;
+  background-size: auto 100%;
 }
 .logo-link,
 .tagline,
@@ -754,6 +754,8 @@ nav {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), inset 0 -2px 3px 0 #003366, inset 0 1px 0 0 #0059b3;
   border-radius: 40px;
+  /* position: absolute; */
+  bottom: 20px;
 }
 .github-link {
   position: fixed;
